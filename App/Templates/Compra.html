@@ -1,0 +1,19 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Compras</title>
+  </head>
+
+  <body>
+    <h1>LISTADO DE COMPRAS TOTALES</h1>
+    <br>
+    {% for c in compras %}
+      {{c.Persona}} - {{c.Producto}} - {{c.Fecha}} - {{c.Hora}}  <br>
+    {% endfor %}
+  </body>
+
+</html>

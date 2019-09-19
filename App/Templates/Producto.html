@@ -1,0 +1,22 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html>
+
+
+  <head>
+    <title>Producto</title>
+  </head>
+
+
+  <body>
+    <h1>LISTADO DE ARTICULOS</h1>
+    <br>
+    {% for p in productos %}
+      {{p.nombre}} - {{p.apellido}} - {{p.descripcion}}  <br>
+    {% endfor %}
+  </body>
+
+
+</html>
