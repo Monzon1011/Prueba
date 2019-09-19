@@ -34,7 +34,7 @@ class Compra(models.Model):
     Hora = models.CharField(max_length=100)
 
     def __str__(self):
-        return '%s Compro %s' % (self.Persona, self.Producto)
+        return '%s realizo compra de  %s' % (self.Persona, self.Producto)
 
     class Meta:
         verbose_name = "Compra"
