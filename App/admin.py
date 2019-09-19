@@ -6,8 +6,8 @@ from models import Compra
 
 # Register your models here.
 
-admin.site.Register(Producto)
+admin.site.register(Producto)
 
-admin.site.Register(Persona)
+admin.site.register(Persona)
 
-admin.site.Register(Compra)
+admin.site.register(Compra)

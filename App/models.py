@@ -17,7 +17,7 @@ class Persona(models.Model):
 
 class Producto(models.Model):
     nombre = models.CharField(max_length=100)
-    apellido = models.CharField(max_length=100)
+    marca = models.CharField(max_length=100)
     descripcion = models.CharField(max_length=100)
 
     def __str__(self):
